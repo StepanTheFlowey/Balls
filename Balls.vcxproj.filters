@@ -17,6 +17,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Balls.rc">
@@ -33,6 +36,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp">
       <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
