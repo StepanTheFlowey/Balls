@@ -22,7 +22,7 @@ int main() {
   const int count = getInt("Кол-во");
   const int radius = getInt("Радиус");
 
-#ifndef DEBUG
+#if !DEBUG
   FreeConsole();
 #endif // DEBUG
 
