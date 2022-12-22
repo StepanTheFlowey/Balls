@@ -88,9 +88,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ball.hpp" />
+    <ClInclude Include="main.hpp" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

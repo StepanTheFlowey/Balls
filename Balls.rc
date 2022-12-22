@@ -52,7 +52,7 @@ END
 // Английский (США) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1252)
 
 /////////////////////////////////////////////////////////////////////////////
@@ -62,7 +62,7 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "icon.ico"
+ID_ICON1               ICON                    "icon.ico"
 
 
 /////////////////////////////////////////////////////////////////////////////
@@ -70,12 +70,10 @@ IDI_ICON1               ICON                    "icon.ico"
 // PNG
 //
 
-IDB_PNG1                PNG                     "icon.png"
+ID_IMG1                IMG                     "icon.png"
 
 #endif    // Английский (США) resources
 /////////////////////////////////////////////////////////////////////////////
-
-
 
 #ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -86,4 +84,3 @@ IDB_PNG1                PNG                     "icon.png"
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
-
