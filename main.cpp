@@ -16,15 +16,15 @@ int getInt(std::string str) {
 }
 
 int main() {
-  setlocale(LC_ALL, "Russian");
-  system("title Настройка");
+  std::setlocale(LC_ALL, "Russian");
+  SetConsoleTitleW(L"Настройка");
 
   const int count = getInt("Кол-во");
   const int radius = getInt("Радиус");
 
 #if !DEBUG
   FreeConsole();
-#endif // DEBUG
+#endif 
 
   std::vector<Ball> balls(count);
 
@@ -59,7 +59,7 @@ int main() {
     }
 
     window.clear();
-    for(const auto& i : balls) {
+    for(auto& i : balls) {
       window.draw(i);
     }
     window.display();

@@ -15,12 +15,12 @@ Ball::Ball() :
 }
 
 void Ball::setRadius(int r) {
-  circle.setRadius(r);
-  circle.setPointCount(static_cast<size_t>(r) * 2);
+  circle.setRadius(static_cast<float>(r));
+  circle.setPointCount(static_cast<uintptr_t>(r) * 2);
   circle.setOutlineThickness(r / 8.F);
 
   r += r / 10;
-  circle.setOrigin(sf::Vector2f(r, r));
+  circle.setOrigin(sf::Vector2f(static_cast<float>(r), static_cast<float>(r)));
 }
 
 void Ball::update() {
