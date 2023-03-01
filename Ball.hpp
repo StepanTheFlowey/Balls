@@ -7,7 +7,6 @@ class Ball : public sf::Drawable {
 public:
 
   Ball();
-
   ~Ball() = default;
 
   void setRadius(int r);
@@ -18,6 +17,6 @@ public:
 protected:
 
   sf::CircleShape circle;
-  int degree = 0;
   float speed = 1.F;
+  int degree = 0;
 };

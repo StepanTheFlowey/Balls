@@ -5,4 +5,3 @@
 #include <SFML/Window/VideoMode.hpp>
 
 extern sf::VideoMode videoMode;
- 
